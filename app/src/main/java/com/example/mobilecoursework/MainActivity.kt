@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         /*aboutBt.setOnClickListener { //once the button is clicked the popup window is opened
-           val window  = PopupWindow(this)
+           val window  = PopupWindow(this) //opening new window
            val view = layoutInflater.inflate(R.layout.about_activity,null)
            window.contentView = view
            val main = findViewById<ConstraintLayout>(R.id.mainId)
