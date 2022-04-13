@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/greaterButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/greaterButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/equalButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/equalButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/equalButton"
+        app:layout_constraintBottom_toTopOf="@+id/resultId"
+        app:layout_constraintEnd_toStartOf="@+id/lesserButton"
+        app:layout_constraintStart_toEndOf="@+id/greaterButton"
+        app:layout_constraintTop_toBottomOf="@+id/timerId"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/lesserButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="91dp"
+        android:text="@string/lesserButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/equalButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="423dp"
+        android:layout_marginBottom="38dp"
+        android:gravity="center"
+        android:text="@string/textview1"
+        app:layout_constraintBottom_toTopOf="@+id/greaterButton"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="39dp"
+        android:gravity="center"
+        android:text="@string/textview2"
+        app:layout_constraintBottom_toTopOf="@+id/lesserButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="177dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:text="@string/resultText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/equalButton"
+        app:layout_constraintTop_toBottomOf="@+id/equalButton" />
+
+    <TextView
+        android:id="@+id/timerId"
+        android:layout_width="163dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="117dp"
+        android:text="@string/timerView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/equalButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

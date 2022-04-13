@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MobileCoursework</string>
+    <string name="aboutButton">About</string>
+    <string name="newGameButton">New Game</string>
+    <string name="studentIdTV">Student ID: w1833511, 20200765</string>
+    <string name="nameTV">Name: Nammuni Vathila Vilhan De Silva</string>
+    <string name="messageTV">I confirm that I understand what plagiarism is and have read and
+understood the section on Assessment Offences in the Essential
+Information for Students. The work that I have submitted
+is entirely my own. Any work from other authors
+is duly referenced and acknowledged.</string>
+    <string name="greaterButton">Greater</string>
+    <string name="equalButton">==</string>
+    <string name="lesserButton">Less</string>
+    <string name="textview1" />
+    <string name="textview2" />
+    <string name="resultView" />
+    <string name="resultText" />
+    <string name="timerView" />
+    <string name="scorecardTV">SCORECARD</string>
+    <string name="correctTV" />
+    <string name="incorrectTV" />
+</resources>
